@@ -27,6 +27,9 @@ function saveRecord(record) {
     const expenseObjectStore = transaction.objectStore('new_expense');
 
     expenseObjectStore.add(record);
+
+    alert('Value successfully received. Transaction will be saved online once connection is restablished.');
+
 }
 
 function uploadExpense() {
