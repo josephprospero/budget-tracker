@@ -3,7 +3,7 @@ const DATA_CACHE_NAME = 'budget-cache'
 
 const FILES_TO_CACHE = [
     '/index.html',
-    '/js/index.html',
+    '/js/index.js',
     '/js/idb.js',
     '/css/styles.css',
     '/manifest.json',
